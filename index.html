@@ -14,18 +14,73 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm">
-                        <i class="fa fa-phone"></i> 053414654, <i class="fa fa-envelope-o"></i> Osama@osama.com
+                        <i class="fa fa-phone"></i> <span>053414654</span>,
+                        <i class="fa fa-envelope-o"></i> Osama@osama.com
                     </div>
-                    <div class="col-sm">
-                        LET'S WORK TOGETHER    GET QUOTE
+                    <div class="col-sm text-right">
+                        <span>LET'S WORK TOGETHER</span>
+                        <span class="get-quote">GET QUOTE</span>
                     </div>
                 </div>
             </div>
         </div>
         <!--End Upper Bar-->
 
+        <!--Start Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <span>Elite</span><span>Corp</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="main-nav">
+                    <ul class="navbar-nav ml-auto"><!--Changed mr-auto to ml-to-->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--End Navbar-->
+
+        <!--Start Slider-->
+        <div class="slider">
+            <div id="main-slider" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <h1>We're an Independent <br>Design and <span>Development</span> <br>Agency.</h1>
+                    <div class="overlay"></div>
+                    <div class="carousel-item carousel-one active"></div>
+                    <div class="carousel-item carousel-two"></div>
+                    <div class="carousel-item carousel-three"></div>
+                </div>
+                <ol class="carousel-indicators">
+                    <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+                    <li data-target="#main-slider" data-slide-to="1"></li>
+                    <li data-target="#main-slider" data-slide-to="2"></li>
+                </ol>
+            </div>
+        </div>
+        <!--End Slider-->
+
         <script src="js/jquery-3.4.1.min.js"></script>
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
     </body>
 </html>
